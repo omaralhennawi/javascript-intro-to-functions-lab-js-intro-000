@@ -15,10 +15,10 @@ function sayHiToGrandma(string){
   var secondanswer = "YES INDEED!"
   var thirdanswer  = "I love you, too."
 
-  if (string.toLowerCase === string){
+  if (string.toLowerCase(string) === string){
     return firstanswer
   }
-  else if (string.toUpperCase === string){
+  else if (string.toUpperCase(string) === string){
     return secondanswer
   }
   else if (string === "I love you, Grandma."){
