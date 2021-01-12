@@ -12,7 +12,7 @@ function logWhisper(string){
 }
 function sayHiToGrandma(){
   describe('whisper(string)', function(){
-      it('logShout(string)', function() {
+      it('logWhisper(string)', function() {
               return "I can't hear you!"
       })
     })
