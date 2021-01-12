@@ -10,13 +10,17 @@ function logShout(string){
 function logWhisper(string){
   console.log(string .toLowerCase())
 }
-function sayHiToGrandma(){
-  describe('whisper(string)', function(){
-      it('logWhisper(string)', function() {
-              expect("I can't hear you")
-      })
-    })
-  describe('shout(string)', function(){
-      return "YES INDEED!"
-  })
-}
+function sayHiToGrandma(string){
+  var firstanswer  = "I can't hear you!"
+  var secondanswer = "YES INDEED!"
+  var thirdanswer  = "I love you, too."
+
+  if (string.toLowerCase){
+    return firstanswer
+  }
+  else if (string.toUpperCase){
+    return secondanswer
+  }
+  else if (string === "I love you, Grandma."){
+    return thirdanswer
+  }
